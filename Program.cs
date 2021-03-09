@@ -26,7 +26,7 @@ namespace Practica_baseDPeliculas_03_03_2021
             //string actor = Console.ReadLine();
 
             p2.BorraActor("Benedict");
-            // p2.BorraActor(benedict);
+            // p2.BorraActor(benedict); gei
             p2.Imprime();
 
 
