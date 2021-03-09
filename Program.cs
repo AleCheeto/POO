@@ -13,7 +13,7 @@ namespace Practica_baseDPeliculas_03_03_2021
 
             Actor benedict = (new Actor(1000, "Benedict Cumberbatch" ,"Hammersmith, London, England, Uk"));
 
-            Pelicula p1 = new Pelicula("El código enigma", 2014, new Categoria("Biográfica", "Biopic"), Clasificación.PG13);
+            Pelicula p1 = new Pelicula("El code enigma", 2014, new Categoria("Biográfica", "Biopic"), Clasificación.PG13);
             p1.AgregaActor(benedict);
             p1.AgregaActor(new Actor(1001, "Keira Knightley " ,"Teddington, Middlesex, England, UK"));
             p1.Imprime();
